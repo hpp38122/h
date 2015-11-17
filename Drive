@@ -1,0 +1,47 @@
+#G Drive
+202.248.151.30	accounts.google.com
+202.248.151.30	clients3.google.com
+202.248.151.30	ssl.gstatic.com	
+202.248.151.30	upload.drive.google.com
+202.248.151.30	googledrive.com
+202.248.151.30	www.googleapis.com
+
+# dropbox	客户端
+108.160.172.204	d.dropbox.com	
+108.160.172.204	client.dropbox.com
+108.160.172.204	client-lb.dropbox.com
+54.230.85.103	client-cf.dropbox.com		#[-]检测文件更新
+54.192.158.25	client-cf.dropbox.com
+54.230.230.44	client-cf.dropbox.com
+108.160.172.204	block-edge.dropbox.com
+199.47.217.97	photos-thumb.dropbox.com
+108.160.169.182	notify1.dropbox.com
+108.160.169.182	notify2.dropbox.com
+108.160.169.182	notify3.dropbox.com
+108.160.169.182	notify4.dropbox.com
+108.160.169.182	notify5.dropbox.com
+108.160.169.182	notify6.dropbox.com
+108.160.169.182	notify7.dropbox.com
+108.160.169.182	notify8.dropbox.com
+108.160.169.182	notify9.dropbox.com
+108.160.169.182	notify10.dropbox.com
+199.47.217.65	block.dropbox.com
+199.47.217.97	block.dropbox.com
+199.47.217.2	block.dropbox.com
+199.47.217.34	block.dropbox.com
+45.58.74.129	block.dropbox.com
+45.58.70.33	block.dropbox.com
+204.236.220.7	dl-client1.dropbox.com
+204.236.220.7	dl-debug.dropbox.com
+
+108.160.172.225	dl.dropbox.com
+199.47.217.101	dl.dropboxusercontent.com	#[-]外链直连下载
+199.47.217.69	dl.dropboxusercontent.com
+108.160.173.133	dl.dropboxusercontent.com
+45.58.74.37	dl.dropboxusercontent.com
+45.58.74.5	dl.dropboxusercontent.com
+199.47.217.37	dl.dropboxusercontent.com
+199.47.217.5	dl.dropboxusercontent.com
+108.160.173.165	dl.dropboxusercontent.com
+108.160.173.5	dl.dropboxusercontent.com
+108.160.173.69	dl.dropboxusercontent.com
