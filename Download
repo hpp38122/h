@@ -1,0 +1,25 @@
+Sub download(url,target)
+        Const adTypeBinary = 1          '数据类型二进制
+        Const adTypeText = 2            '数据类型文本
+        Const adSaveCreateOverWrite = 2 '覆盖已有文件
+        Dim http,ado
+    Set http = CreateObject("Msxml2.ServerXMLHTTP") '下载数据
+        http.SetOption 2,13056                      '忽略https错误
+        http.open "GET",url,False
+        http.send
+    Set ado = createobject("Adodb.Stream")
+        ado.Type = adTypeBinary
+        ado.Open
+        ado.Write http.responseBody
+        ado.SaveToFile target,adSaveCreateOverWrite '储存
+        ado.Close
+End Sub
+Set WshShell=CreateObject("WScript.Shell") '创建WshShell对象使用win代码
+'WinDir =WshShell.ExpandEnvironmentStrings("%WinDir%") '环境变量
+'HostsFile = WinDir & "\System32\Drivers\etc\hosts"
+'Const hosts="https://raw.githubusercontent.com/hpp38122/h/master/Drive"
+'download hosts,HostsFile                    '下载hosts文件，保存在HostsFile位置
+
+
+wshshell.run "cmd /c ipconfig /flushdns",0  '刷新DNS
+MsgBox "hosts 数据已更新", vbInformation, "h"
