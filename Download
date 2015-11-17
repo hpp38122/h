@@ -15,11 +15,9 @@ Sub download(url,target)
         ado.Close
 End Sub
 Set WshShell=CreateObject("WScript.Shell") '创建WshShell对象使用win代码
-'WinDir =WshShell.ExpandEnvironmentStrings("%WinDir%") '环境变量
-'HostsFile = WinDir & "\System32\Drivers\etc\hosts"
-'Const hosts="https://raw.githubusercontent.com/hpp38122/h/master/Drive"
-'download hosts,HostsFile                    '下载hosts文件，保存在HostsFile位置
-
-
+WinDir =WshShell.ExpandEnvironmentStrings("%WinDir%") '环境变量
+HostsFile = WinDir & "\System32\Drivers\etc\hosts"
+Const hosts="https://raw.githubusercontent.com/hpp38122/h/master/Drive"
+download hosts,HostsFile                    '下载hosts文件，保存在HostsFile位置
 wshshell.run "cmd /c ipconfig /flushdns",0  '刷新DNS
 MsgBox "hosts 数据已更新", vbInformation, "h"
