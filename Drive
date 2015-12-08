@@ -1,10 +1,14 @@
 #G Drive
+202.248.151.30	pki.google.com
 202.248.151.30	accounts.google.com
 202.248.151.30	clients3.google.com
-202.248.151.30	ssl.gstatic.com	
+202.248.151.30	ssl.gstatic.com
 202.248.151.30	upload.drive.google.com
 202.248.151.30	googledrive.com
 202.248.151.30	www.googleapis.com
+64.233.188.125	talk.google.com
+173.194.203.125	talk.google.com
+74.125.206.125	talk.google.com
 
 # dropbox	客户端
 108.160.172.204	d.dropbox.com	
@@ -31,8 +35,8 @@
 199.47.217.34	block.dropbox.com
 45.58.74.129	block.dropbox.com
 45.58.70.33	block.dropbox.com
-204.236.220.7	dl-client1.dropbox.com
-204.236.220.7	dl-debug.dropbox.com
+199.47.217.97	dl-client1.dropbox.com
+199.47.217.97	dl-debug.dropbox.com
 
 108.160.172.225	dl.dropbox.com
 199.47.217.101	dl.dropboxusercontent.com	#[-]外链直连下载
